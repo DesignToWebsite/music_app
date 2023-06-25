@@ -1,0 +1,15 @@
+@keyframes img_animation {
+    0% {
+      /* Initial state of the element */
+      transform: rotate(0);
+    }
+    100% {
+      /* Final state of the element */
+      transform: rotate(360deg);
+    }
+  }
+
+.cover{
+    animation: img_animation 20s linear infinite;
+
+}

@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+    .logo{
+        a{
+            color: black;
+            font-weight: 700;
+            font-size: 25px;
+        }
+    }
+    .library_btn{
+        button{
+            padding: 10px ;
+            border: black 2px solid;
+            background-color: transparent;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+}
